@@ -30,9 +30,9 @@ const Navbar = () => {
     >
       <div className="container px-6">
         <nav className="flex items-center justify-between">
-          {/* Logo */}
-          <a href="#" className="text-2xl font-bold font-heading gradient-text">
-            SR
+          {/* Name */}
+          <a href="#" className="text-lg font-semibold font-heading text-foreground">
+            Srivarshan
           </a>
 
           {/* Desktop nav */}
