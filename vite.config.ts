@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/portfolio-pro/", // <--- ADDED THIS LINE
+  base: "./", // <--- CHANGED: This dot (.) makes it work on Vercel, Netlify AND GitHub
   server: {
     host: "::",
     port: 8080,
