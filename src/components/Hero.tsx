@@ -22,12 +22,11 @@ const Hero = () => {
           {/* Name */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-heading mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <span className="gradient-text">Srivarshan</span>
-            <span className="block text-foreground mt-2">S R</span>
           </h1>
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in font-light" style={{ animationDelay: "0.2s" }}>
-            Data Science Student & Frontend Developer
+            Data Science Student
           </p>
           
           <p className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-10 animate-fade-in" style={{ animationDelay: "0.3s" }}>
